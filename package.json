@@ -1,0 +1,37 @@
+{
+  "name": "my-first-smart-contract",
+  "version": "1.0.0",
+  "description": "A simple Solidity smart contract and test project.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "./node_modules/solc/solc.js --bin --abi contracts/MyFirstContract.sol -o build",
+    "test": "jest",
+    "start": "./node_modules/ganache-cli/cli.js -p 7545"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlockChain-R/my-first-smart-contract.git"
+  },
+  "keywords": [
+    "solidity",
+    "smart contract",
+    "web3",
+    "jest",
+    "ganache",
+    "blockchain"
+  ],
+  "author": "vardamanpk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BlockChain-R/my-first-smart-contract/issues"
+  },
+  "homepage": "https://github.com/BlockChain-R/my-first-smart-contract#readme",
+  "dependencies": {
+    "web3": "^1.8.2"
+  },
+  "devDependencies": {
+    "ganache-cli": "^6.12.2",
+    "jest": "^29.4.3",
+    "solc": "^0.8.19"
+  }
+}
