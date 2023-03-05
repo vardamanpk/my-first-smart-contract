@@ -18,17 +18,18 @@ A simple Solidity smart contract and test project.
 
 ## Usage
 
-### Starting a local blockchain
+### Starting a local blockchain:
 
-To start a local blockchain using Ganache, run:
-    ```sh
-    npm run start
-    ```
+To start a local blockchain using Ganache
+
+   ```
+   npm run start
+   ```
 This will start a local blockchain on port 7545
 
 ### Compile the smart contract:
 
-   ```sh
+   ```
    npm run compile
    ```
 This will generate the contract bytecode and ABI in the build/ directory.
@@ -36,7 +37,7 @@ This will generate the contract bytecode and ABI in the build/ directory.
 ### Running tests:
 
 To run the project tests using Jest, run:
-   ```sh
+   ```
    npm run test
    ```
 This will run the tests in the test/ directory. The tests will deploy the contract to the local blockchain and run the tests.
